@@ -16,7 +16,7 @@ type CurrentDate struct {
 	year  int
 }
 
-func getCurrentDate() *CurrentDate {
+func GetCurrentDate() *CurrentDate {
 	date := new(CurrentDate)
 	t := time.Now()
 	date.day = t.Day()
